@@ -1,0 +1,208 @@
+/*!
+ * Start Bootstrap - Grayscale v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ */
+body {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #2a311e;
+  background-color: #FDFCFC; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Futura';
+  font-weight: 300;
+  margin: 0 0 35px;
+  letter-spacing: 1px;
+  text-transform: none;
+  color: #2a311e;}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 15px; }
+  @media (min-width: 768px) {
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 25px; } }
+
+a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+ }
+  a:focus, a:hover {
+    text-decoration: none;
+   }
+
+   #mainNav {
+     font-family: 'Roboto', serif;
+     margin-bottom: 0;
+     text-transform: none;
+     background-color: #fdfcfc; }
+     #mainNav .navbar-toggler {
+       font-size: 14px;
+       padding: 20px;
+       color: #2a311e;
+       border: none;}
+     #mainNav .navbar-brand {
+       font-weight: 100; }
+     #mainNav a {
+       color: #2a311e; }
+     #mainNav .navbar-nav .nav-item {
+       -webkit-transition: background 0.3s ease-in-out;
+       -moz-transition: background 0.3s ease-in-out;
+       transition: background 0.3s ease-in-out; }
+       #mainNav .navbar-nav .nav-item:hover {
+         color: fade(white, 80%);
+         outline: none;
+         background-color: #fdfcfc; }
+       #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+         outline: none;
+         background-color: transparent; }
+     @media (min-width: 992px) {
+       #mainNav {
+         -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+         -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+         transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+         letter-spacing: 1px;
+         border-bottom: none;
+         background: rgba(253,252,252,0.9); }
+         #mainNav.navbar-shrink {
+           border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+           background-color:;
+         }
+         #mainNav .nav-link.active {
+           outline: none;
+           background-color: rgba(255, 255, 255, 0.3); }
+           #mainNav .nav-link.active:hover {
+             border: 1px, solid #155624; } }
+
+
+.img-fluid {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+
+.project-name {
+  max-width: 100%;
+  font-family: 'Futura';
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 5px;
+  color: black;
+  font-size: 3em;
+  padding-top: 15px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.Swiftly-intro {
+  background-image: url("/img/swiftly-perspective-screens.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.userflow {
+  object-fit: cover;
+  object-position: 0 0;
+  width: 100%;
+  max-height: 250px;
+  margin-bottom: 1rem;
+  margin-left: 15px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+.userflow-button {
+  margin-top: 20px;
+}
+.sub {
+  padding-top: 20px;
+}
+.project-name h1 {
+  font-size: 100px;
+  color: white;
+}
+@media (max-width: 500px) {
+.row h1 {
+    position:absolute;
+    font-size: 42px;
+    line-height: 1.6; }
+  }
+
+.container {
+  padding-top: 30px;
+}
+
+.segment {
+  margin-top: 3rem;
+}
+.indent {
+  padding-left: 15px;
+}
+.center-space {
+  padding-right: 30px;
+}
+.nudge {
+  padding-left: 15px;
+  padding-top: 30px;
+}
+.persona {
+  border: 1px solid lightgray;
+  object-fit: scale-down;
+  border-radius: 4px;
+}
+/* iOS tag on Prototype section */
+
+
+.iOS-tag-head {
+  margin-bottom: .5rem;
+}
+h6.tag {
+  font-family: 'Roboto';
+  font-size: 10px;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  border: 1px solid lightgray;
+  text-align: center;
+  padding: 3px 3px 2px 3px;
+  margin-left: 0px;
+  margin-bottom: .5rem;
+  background-color: white;
+  display: inline;
+}
+.spacing {
+  margin-top: .5rem;
+}
+.prototype-button {
+  margin-bottom: 1rem;
+  }
+.competitive-points {
+  line-height: 30px;
+}
+.wireframes {
+  object-fit: scale-down;
+  object-position: 0 0;
+  width: 100%;
+  max-height: 250px;
+  margin-bottom: 1rem;
+}
+.prototype {
+  margin-bottom: 1rem;
+  padding-right: 0px;
+}
