@@ -24,10 +24,10 @@
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab|Roboto|Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin:700|Catamaran|Futura|Montserrat" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="/css/alternate.css"rel="stylesheet">
 
   </head>
 
@@ -44,13 +44,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">Work</a>
+              <a class="nav-link js-scroll-trigger" href="#work">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="resume.html">Resume</a>
             </li>
           </ul>
         </div>
@@ -58,13 +58,12 @@
     </nav>
 
     <!-- Intro Header -->
-    <header class="masthead img-fluid">
-      <div class="intro-body">
-        <div class="container col-10">
+    <header class="masthead hero img-fluid">
+        <div class="container">
           <div class="row">
-            <div class="title-text">
-              <h1 class="brand-heading">Jennifer Keller</h1>
-              <p class="intro-text">UX designer & researcher in Seattle, WA</p>
+            <div class="col-sm-8 title-text">
+              <h1 class="display-3">Jennifer Keller</h1>
+              <h1 class="intro-text">UX designer & researcher Seattle, WA</h1>
               </a>
             </div>
           </div>
@@ -72,103 +71,58 @@
       </div>
     </header>
 
-<div class="container">
-  <h1 class="section-title  align-bottom">Work</h1>
-  </div>
     <!-- Download Section -->
-<section id="download" class="content-section project-detail">
-  <div class="bg-image parallax img-fluid">
-      <div class="container col-10">
-        <h2 class="brand-heading">Swiftly</h2>
-        <h6 class="tag">iOS app</h6>
-
-          <p class="sixty-forty">Bicycle sharing services are growing in popularity and the services currently available in the U.S. are limited in their offerings. Enter Swiftly - a better bike-share. With its streamlined interface and its fleet of better bikes, Swiftly stands out from the crowd.</p>
-
-            <button class="btn-default btn" style="vertical-align:middle"><a href="swiftly.html"><span>View case study</span></a></button>
-      </div>
-    </section>
-
-
-    <section id="download" class="content-section project-detail">
-      <div class="bg-image parallax2 img-fluid">
-        <div class="container col-10">
-          <h2 class="brand-heading">Eat and Greet</h2>
-          <h6 class="tag">e-commerce</h6>
-          <p class="sixty-forty">This is a synopsis of my second project about specialty food items and buying them online through an e-commerce site.  The site is responsive and looks beautiful and is easy to use on any device, mobile, desktop, or anywhere in between.</p>
-
-          <button class="btn-default btn" style="vertical-align:middle"><a href="swiftly.html"><span>View case study</span></a></button>
-    </div>
-  </div>
-</section>
-
-
-
-
-  <section id="download" class="content-section project-detail">
-    <div class="bg-image parallax3">
-      <div class="container col-10">
-        <h2 class="brand-heading">Kellandersip</h2>
-        <h6 class="tag">iOS app</h6>
-
-        <p class="sixty-forty">This is a bunch of text explaining my third project.</p>
-
-        <button class="btn-default btn" style="vertical-align:middle"><a href="swiftly.html"><span>View case study</span></a></button>
-    </div>
-  </div>
-</section>
-
-
-    <!-- About Section -->
-    <section id="about" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="header-lt-bkg">About Me</h2>
-            <p>I recently completed a User Experience design apprenticeship where I worked with a Senior Designer twice a week. Under her guidance, I executed user-focused projects considering all elements of the design process including iteration based on user feedback and testing. Prior to UX, I studied English and psychology and helped conduct research studies at the University of New Mexico. I'm an empath, active listener, animal lover, optimist, and INFP. </p>
-
+    <div class="container">
+          <!-- Project One -->
+          <div class="row">
+            <div class="col-md-7">
+              <a href="#work">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="img/woman-hand-and-bike.jpg" alt="Woman's hand holding phone with purple bicycle in background">
+              </a>
+            </div>
+            <div class="col-md-5">
+              <h3 class="header-lt-bkg">Swiftly</h3>
+              <h6 class="tag">iOS app</h6>
+              <p>Bicycle sharing services are growing in popularity and the services
+              currently available in the U.S. are limited in their offerings. Enter Swiftly - a better bike-share. With its streamlined interface and its fleet of better bikes, Swiftly stands out from the crowd.</p>
+              <a class="btn btn-styled" href="swiftly.html"><span>View Case Study</span></a>
+            </div>
           </div>
-        </div>
+          <!-- /.row -->
+<div class="row">
+  <div class="col-md-7">
+    <a href="#">
+      <img class="img-fluid rounded mb-3 mb-md-0" src="img/parallax2.jpg" alt="table displaying food">
+    </a>
+  </div>
+  <div class="col-md-5">
+    <h3 class="header-lt-bkg">Eat & Greet</h3>
+    <p>This is a synopsis of my second project about specialty food items and buying them online through an e-commerce site.  The site is responsive and looks beautiful and is easy to use on any device, mobile, desktop, or anywhere in between.</p>
+    <a class="btn btn-styled" href="eatandgreet.html"><span>View Case Study</span></a>
+  </div>
+</div>
+
+
+<!-- Project Three -->
+    <div class="row">
+      <div class="col-md-7">
+        <a href="#">
+          <img class="img-fluid rounded mb-3 mb-md-0" src="img/parallax3.jpg" alt="">
+        </a>
       </div>
-    </section>
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="header-lt-bkg">Get in touch</h2>
-
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="https://twitter.com/jeningeneral" class="btn btn-default btn-lg btn-contact">
-                  <i class="fa fa-twitter fa-fw"></i>
-                  <span class="network-name">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/jenniferjkeller" class="btn btn-default btn-lg btn-contact">
-                  <i class="fa fa-github fa-fw"></i>
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="mailto:jennifer.keller1125@gmail.com" class="btn btn-default btn-lg btn-contact">
-                  <i class="fa fa-envelope fa-fw"></i>
-                  <span class="network-name">email</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <div class="col-md-5">
+        <h3 class="header-lt-bkg">Kipperson</h3>
+        <p>This is a bunch of text explaining my third project.</p>
+        <a class="btn btn-styled" href=""><span>View Case Study</span></a>
       </div>
-    </section>
+    </div>
+    <!-- /.row -->
 
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer-light">
       <div class="container text-center">
-        <p>Copyright &copy; jenniferjkeller.com 2017</p>
+        <p>Copyright &copy; jenniferjkeller.com 2018</p>
       </div>
     </footer>
 

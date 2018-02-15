@@ -10,7 +10,7 @@ body {
   width: 100%;
   height: 100%;
   color: #54595E;
-  background-color: #FDFCFC; }
+  background-color: #F2EDEE; }
 
 html {
   width: 100%;
@@ -56,7 +56,7 @@ a:hover {
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 20px;
-    color: #2a311e;
+    color: #212529;
     border: none;}
   #mainNav .navbar-brand {
     font-weight: 100; }
@@ -99,121 +99,141 @@ a:hover {
 /* jumbotron */
 
 .masthead {
-  display: table;
+  background: url("/img/test.jpg");
   width: 100%;
-  height: 200px;
-  text-align: bottom left;
-  background: url("../img/test.jpg") no-repeat top center scroll;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
-
-.masthead .intro-body {
-  display: table-cell;
-  padding-bottom: 0px;
+  background-size: cover;
+  bottom-box-shadow: 0 -1px 10px rgba(0, 0, 0, .5);
 }
+
 .masthead .intro-body .brand-heading {
-  font-size:32px;
-  color: #F1F1F1;
+  /*font-size:32px;*/
+  color: #FFFFFF;
+
 }
 
 .masthead .intro-body .intro-text {
-      font-size: 13px;
+      /*font-size: 13px;*/
       text-transform: uppercase;
-      color: white;}
-  @media (min-width: 768px) {
+      color: white;
+
+}
+  @media (min-width: 350px) {
     .masthead {
       height: 100%;
-      padding: 120px 120px 0px 120px; }
-      .masthead .intro-body .brand-heading {
-        font-size: 40px;}
-      .masthead .intro-body .intro-text {
-        font-size: 22px; } }
+      padding: 120px 120px 0px 50px; }
+    .masthead .intro-body .brand-heading {
+      /*font-size: 40px;*/
+      text-align: left;}
+    .masthead .intro-body .intro-text {
+      /*font-size: 22px;*/
+      text-align: left;}
+}
+
 .title-text {
-  padding-top: 250px;
+  padding-top: 15rem;
 }
 
 .content-section {
-  padding-top: 100px;
-  padding-bottom: 150px;
+  margin-top: 6rem;
 }
+
 @media (min-width: 992px) {
-  .content-section {
-    padding-top: 100px;
-    padding-bottom: 100px; }
-   }
+.content-section {
+  display: grid;
+  padding-top: 0px;
+  padding-bottom: 0px; }
+}
 
 /* work tiles */
-.section-title {
-  height:75px;
-  text-align: center;
-  padding-top: 100px;
-}
-.work-panel {
-  height: 200px;
-}
+
 .sixty-forty {
-  width: 50%;
+  width: 40%;
   color: #F1F1F1;
   font-family: 'Catamaran';
   font-weight: normal;
   margin-top: .5rem;
 }
-.bg-image {
-  padding: 100px;
-  max-width:100%;
-  max-height: 600px;
-  border-radius: 2px;
-
+@media (min-width: 375px) {
+  .sixty-forty {
+    width: 80%;
+  }
 }
+
+
+@media (min-width: 375px) {
+  .bg-image{
+      padding: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg-image {
+  padding: 150px;
+}
+}
+
+
 .parallax {
-    /* The image used */
-    background-image: url("/img/hero-swiftly2.jpg");
+  background-image: url("/img/hero-swiftly2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .5);
 
-    /* Set a specific height */
-    height: 500px;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
+
 .parallax2 {
     /* The image used */
     background-image: url("/img/parallax2.jpg");
-
     /* Set a specific height */
-    height: 500px;
+    height: 100vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .5);
 }
 .parallax3 {
     /* The image used */
     background-image: url("/img/parallax3.jpg");
 
     /* Set a specific height */
-    height: 500px;
+    height: 100vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .5);
 }
 .brand-heading{
-  color: #F1F1F1;
+  color: #FFFFFF;
 }
 
 h2 {
   margin-bottom: 10px;
 }
+.alignment {
+  max-width: 80%;
+  text-align: left;
+}
+
 
 /* project type tag style*/
 h6.tag {
@@ -231,7 +251,7 @@ h6.tag {
 }
 /* header for light background */
 .header-lt-bkg{
-  color: #2a311e;
+  color: #212529;
 }
 
 

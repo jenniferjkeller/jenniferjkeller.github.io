@@ -1,0 +1,95 @@
+
+body {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  /*position: relative;*/
+  width: 100%;
+  height: 100%;
+  color: #54595E;
+  background-color: #FFFFFF;
+  margin:0;
+  padding:0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-y: scroll;
+  overflow-x: hidden;}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;}
+
+  /* button styles */
+  .btn {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    border-radius: 8px; }
+
+  /*.btn-default {
+    color: #F1F1F1;
+    border: 1px solid #F1F1F1;
+    border-radius: 4px;
+    background-color: #F1f1f1; }
+    .btn-default:focus, .btn-default:hover {
+      color: darkgray;
+      border: 1px solid #F1F1F1;
+      outline: none;
+      background-color: #F1F1F1; }
+
+  .btn-contact{
+    background-color: #3BCCC2;
+  }*/
+  .btn-styled {
+  	background-image: linear-gradient(to bottom, #67DBD3 0%, #3BCCC2 100%);
+  	border-radius: 40px;
+    box-sizing: border-box;
+  	color: #3BCCC2;
+  	font: .8rem 'Roboto', Arial, sans-serif; /*18*/
+  	height: 50px;
+  	letter-spacing: 1px;
+  	margin: 0 auto;
+  	padding: 2px;
+  	position: relative;
+    text-decoration: none;
+  	text-transform: uppercase;
+  	width: 150px;
+  	z-index: 2;
+  }
+
+  .btn-styled:hover {
+  	color: #fff;
+  }
+
+  .btn-styled span {
+  	align-items: center;
+  	background: #fff;
+  	border-radius: 40px;
+  	display: flex;
+  	justify-content: center;
+  	height: 100%;
+  	transition: background .5s ease;
+  	width: 100%;
+  }
+
+  .btn-styled:hover span {
+  	background: transparent;
+  }
+
+  /* Contact buttons */
+  ul.banner-social-buttons {
+    margin-top: 0; }
+    @media (max-width: 1199px) {
+      ul.banner-social-buttons {
+        margin-top: 15px; } }
+    @media (max-width: 767px) {
+      ul.banner-social-buttons li {
+        display: inline-block;
+        margin-bottom: 20px;
+        padding: 0; }
+        ul.banner-social-buttons li:last-child {
+          margin-bottom: 0; } }
