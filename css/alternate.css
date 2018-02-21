@@ -144,7 +144,7 @@ a:hover {
     text-align: left;}
 }
 @media (min-width: 375px max-width: 767px) {
-  .masthead .brand-heading {
+  .masthead .title-text {
     font-size: 2.5rem;
     text-align: left;
     margin-bottom: 8px;
@@ -157,7 +157,7 @@ a:hover {
     max-width: 60%}
 }
 @media (min-width: 768px) {
-  .masthead .brand-heading {
+  .masthead {
     /*font-size: 2rem;*/
     position: relative;
     text-align: left;}
@@ -170,7 +170,7 @@ a:hover {
       /*.masthead {
     height: 100%;
       padding: 120px 120px 0px 50px; }*/
-    .masthead .brand-heading {
+    .masthead {
       font-size: 4rem;
       text-align: left;}
     .masthead .intro-text {
@@ -185,8 +185,15 @@ a:hover {
 }
 
 .title-text {
-  padding-top: 22rem;
+  padding-top: 21rem;
 }
+
+@media screen and (max-width: 992px) {
+  .title-text {
+    padding-top: 12rem;
+  }
+}
+
 .display-3 {
   color: #FFFFFF;
   text-shadow: 0px 1px 2px #0C876A;
@@ -212,8 +219,9 @@ a:hover {
 @media (min-width: 768px max-width: 994px) {
   .col-md-5 h3 {
     font-size: 1.4rem;
-    margin-bottom: 0px 0px 15px;}
+    margin-bottom: 15px;
   }
+}
 
 .parallax2 {
     /* The image used */

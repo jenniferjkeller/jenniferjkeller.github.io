@@ -184,10 +184,15 @@ h6.tag {
 .spacing {
   margin-top: .5rem;
 }
-
-.competitive-points {
-  line-height: 30px;
+.card-spacing {
+  margin: 2rem 0;
 }
+.competitive-points {
+  line-height: 1.5rem;
+  margin: 20px;
+}
+
+
 .wireframes {
   object-fit: scale-down;
   object-position: 0 0;
@@ -234,7 +239,6 @@ h6.tag {
 	color: #3BCCC2;
 	font: .8rem 'Roboto', Arial, sans-serif; /*18*/
 	height: 50px;
-
 	padding: 2px;
 	position: relative;
   text-decoration: none;
@@ -244,7 +248,7 @@ h6.tag {
 }
 
 .btn-styled:hover {
-	color: #ffffff;
+	color: #fff;
 }
 
 .btn-styled span {
@@ -253,7 +257,6 @@ h6.tag {
 	border-radius: 40px;
   color: #3BCCC2;
 	display: flex;
-
 	justify-content: center;
 	height: 100%;
 	transition: background .5s ease;
