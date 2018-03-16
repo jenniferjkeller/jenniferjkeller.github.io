@@ -92,6 +92,14 @@ a {
 }
 
 
+.Swiftly-intro {
+  background-image: url("/img/swiftly-perspective-screens-mod.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .project-name {
   max-width: 100%;
   font-family: 'Futura';
@@ -104,14 +112,12 @@ a {
   margin-bottom: 20px;
   display: inline-block;
 }
-.Swiftly-intro {
-  background-image: url("/img/swiftly-perspective-screens.jpg");
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 
-}
+@media (max-width: 500px) {
+.project-name {
+    font-size: xx-large;
+    line-height: 1.6; }
+  }
 
 .userflow {
   object-fit: cover;
@@ -129,21 +135,17 @@ a {
 .sub {
   padding-top: 20px;
 }
-.project-name h1 {
-  font-size: 100px;
-  color: white;
-}
-@media (max-width: 500px) {
-.row h1 {
-    position:absolute;
-    font-size: 42px;
-    line-height: 1.6; }
-  }
+
 
 .container {
   padding-top: 30px;
 }
-
+.highlight {
+  background-color: rgba(155, 148, 232, .25);
+  padding-bottom: 45px;
+  padding-top: 15px;
+  margin-top: 15px;
+}
 .segment {
   margin-top: 3rem;
 }
@@ -153,14 +155,12 @@ a {
 .center-space {
   padding-right: 30px;
 }
-.nudge {
-  padding-left: 15px;
-  padding-top: 30px;
-}
+
 .persona {
   border: 1px solid lightgray;
   object-fit: scale-down;
   border-radius: 4px;
+  }
 }
 /* iOS tag on Prototype section */
 
@@ -175,14 +175,18 @@ h6.tag {
   border-radius: 2px;
   border: 1px solid lightgray;
   text-align: center;
-  padding: 3px 3px 2px 3px;
+  padding: .2rem;
   margin-left: 0px;
+  margin-right: 1rem;
   margin-bottom: .5rem;
+  margin-top: 1rem;
   background-color: white;
   display: inline;
+  text-transform: lowercase;
 }
+
 .spacing {
-  margin-top: .5rem;
+  margin-top: 1rem;
 }
 .card-spacing {
   margin: 2rem 0;
@@ -200,6 +204,11 @@ h6.tag {
   max-height: 250px;
   margin-bottom: 1rem;
 }
+
+.branding {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .prototype {
   margin-bottom: 1rem;
   padding-right: 0px;
@@ -215,22 +224,10 @@ h6.tag {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
-  border-radius: 8px; }
+  border-radius: 8px;
+  margin-right: 1rem;}
 
-/*.btn-default {
-  color: #F1F1F1;
 
-  border-radius: 4px;
-  background-color: #F1f1f1; }
-  .btn-default:focus, .btn-default:hover {
-    color: darkgray;
-
-    outline: none;
-    background-color: #F1F1F1; }
-
-.btn-contact{
-  background-color: #3BCCC2;
-}*/
 
 .btn-styled {
 	background-image: linear-gradient(to bottom, #67DBD3 0%, #3BCCC2 100%);
@@ -248,12 +245,12 @@ h6.tag {
 }
 
 .btn-styled:hover {
-	color: #fff;
+	color: #ffffff;
 }
 
 .btn-styled span {
 	align-items: center;
-	background: #fff;
+	background: #ffffff;
 	border-radius: 40px;
   color: #3BCCC2;
 	display: flex;
@@ -265,6 +262,7 @@ h6.tag {
 
 .btn-styled:hover span {
 	background: transparent;
+  color: #ffffff;
 }
 .prototype-button {
   margin-bottom: 1rem;

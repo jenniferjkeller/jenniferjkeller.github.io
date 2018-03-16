@@ -58,24 +58,29 @@
 <div class="Swiftly-intro img-fluid">
 </div>
 
-    <div class="container col-8">
-      <h1 class="project-name">Swiftly</h1>
+    <div class="container col-md-8">
+      <h2 class="project-name">Swiftly</h2>
       <div class="indent row">
-        <h6 class="tag">iOS app</h6>
+        <h6 class="tag">iOS app design</h6>
+        <h6 class="tag">user interviews</h6>
+        <h6 class="tag">user personas</h6>
+        <h6 class="tag">wireframes</h6>
+        <h6 class="tag">branding</h6>
+        <h6 class="tag">user testing</h6>
       </div>
       <div class="indent row">
       <button class="spacing btn btn-styled prototype-button"><a href="https://invis.io/YCECGDRZT"><span>View Prototype</span></a></button>
     </div>
   </div>
     </div>
-
-    <div class="container col-8">
+<section class="highlight">
+    <div class="container col-md-8">
           <h3>Summary</h3>
           <p>Bicycle sharing services are growing in popularity and the services currently available in the U.S. are limited in their offerings. Enter Swiftly - a better bike-share. With a streamlined interface and a fleet of better bikes, Swiftly stands apart. </p>
         </div>
-      <div class="container-fluid col-8">
+      <div class="container-fluid col-md-8">
           <div class="row">
-            <div class="card-deck">
+            <div class="card-deck col-md">
               <div class="card card-spacing">
                 <div class="card-block">
                   <h4 class="card-header card-title">Problem</h4>
@@ -91,19 +96,19 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
     <div class="img-fluid segment">
     </div>
 
-      <div class="container col-8">
+      <div class="container col-md-8">
         <h3>User Research</h3>
         <p>I conducted interviews with members of the community asking what features they wanted in a bike-sharing service and how often they would use it. People reported they would use the bike while visiting or getting around the city. They liked that it was cheaper than public transportation or a rental car.</p>
         <p>With the old service, having to bring the bike back to a specified hub was a common complaint. People also reported that the bikes didn't have many gears.</p>
       </div>
-      <div class="container-fluid col-8">
+      <div class="container-fluid col-md-8">
         <h3>Competitive analysis</h3>
         <p>I conducted a competitive analysis of two bike-share companies in Seattle and one company that does business nationwide. I researched the equipment used in bike sharing and examined the apps used to obtain the service. From this research, I gleaned several important insights. </p>
-        <div class="container-fluid sm-col-8">
+        <div class="container-fluid sm-col-md-8">
          <div class="row">
           <div class="card-deck">
            <div class="card card-spacing">
@@ -135,65 +140,103 @@
     </div>
         <br></br>
       </div>
-          <div class="container col-8">
+
+          <div class="container col-md-8">
+            <div class="row col-md">
+
             <h3>User Persona</h3>
               <p>After analyzing competitors and considering my initial research, I set out to define my ideal user. </p>
-            <img src="/img/persona-rachel.jpg" class="persona img-fluid" alt="User Persona document">
+
+              <div class="d-none d-sm-block d-xl-none row col-sm">
+                <img src="/img/persona-rachel.jpg" class="persona img-fluid">
+            </div>
 
           </div>
+            <div class="d-xs-block d-sm-none row col-sm">
+            <div class="col-sm">
+            <img src="/img/Rachel-persona-highlights.jpg" class="persona img-fluid" alt="User Persona document">
+            </div>
+
+              <div class="col-sm spacing">
+              <h4>Goals</h4>
+              <ul>
+                <li>Save time by not waiting on public transport</li>
+                <li>Get exercise during the day</li>
+                <li>Not be encumbered by a bike of her own</li>
+                <li>Build more flexibility into her day</li>
+                </div>
+            <div class="col-sm">
+        <h4>Frustrations</h4>
+              <ul>
+                <li>Waiting for the bus</li>
+            <li>Riding a crowded bus</li>
+            <li>Sitting in traffic</li>
+            <li>Having to have a helmet with her if she plans to rent a bike</li>
+          </div>
+          <button class="btn btn-styled userflow-button"><a href="img/persona-rachel.jpg"><span>View User Persona </span></a></button>
         </div>
-      <div class="container col-8">
+      </div>
+    </div>
+      </div>
+      <div class="container col-md-8">
         <h3>User Flows</h3>
-        <div class="row">
+        <div class="row col">
+          <p>I mapped out a user flow based on Rachel’s first time using the app, but the early stages were too complex. The user had to complete several steps before creating an account, all before they got to see how many bikes were nearby. Given that users may be at the bike, ready to scan and ride, this user flow was insufficient.  It was re-worked and streamlined for the final design.</p>
+        </div>
+        <div class="d-none d-lg-block row">
           <img class=" img-fluid userflow" src="img/userflow.jpg" alt=" diagram">
         </div>
         <button class="btn btn-styled userflow-button"><a href="img/userflow.pdf"><span>View Userflow </span></a></button>
       </div>
 
-          <div class="container col-8">
-            <p>I mapped out a user flow based on Rachel’s first time using the app, but the early stages were too complex. The user had to complete several steps before creating an account, all before they got to see how many bikes were nearby. Given that users may be at the bike, ready to scan and ride, this user flow was insufficient.  It was re-worked and streamlined for the final design.</p>
-          </div>
 
 
-      <div class="container col-8">
+
+      <div class="container col-md-8">
         <h3>Wireframes</h3>
         <p>The early wireframes were an experiment on nav placement, layout, and interaction.  I found that a bottom navigation bar tested better with users and implemented this feature.  </p>
-        <div class="row">
-            <div class="col-6">
-          <img class=" img-fluid wireframes" src="img/lofi-wireframes-2.jpg" alt=" diagram">
+        <div class="row d-inline-flex">
+            <div class="col-sm d-flex justify-content-center">
+          <img class="img-fluid wireframes" src="img/swiftly-lofi-wf.jpg" alt=" low fidelity wireframes depicting early stages of bike sharing application">
           </div>
-            <div class="col-6">
-          <img class=" img-fluid wireframes" src="img/hifi-wireframes.jpg" alt=" diagram">
+            <div class="col-md d-flex justify-content-center">
+          <img class=" img-fluid wireframes  shrink-to-fit" src="img/swiftly-hifi-wf.jpg" alt="high fidelity wireframes depicting later stages of bike sharing application">
         </div>
         </div>
-        <button class="btn btn-styled userflow-button"><a href="/img/hi-fi-wireframes.pdf"><span>View Wireframes </span></a></button>
+        <button class="btn btn-styled userflow-button"><a href="/img/swiftly-wireframes.pdf"><span>View Wireframes </span></a></button>
 
       </div>
 
 
-      <div class="container col-8">
+      <div class="container col-md-8">
       <h3>Branding work</h3>
         <p>In the branding phase, I created a mind map to brainstorm a name. I selected "Swiftly" because it connotes movement and speed. Next, I developed the tagline “Where the better bikes are” to educate users about the higher quality bikes available in our fleet. The user swipes through screens promoting premium features to reinforce the product's quality. </p>
 
         <p>I originally selected a palette of blues for Swiftly's branding. In testing, the palette was seen as cold and corporate, even dated. I brightened up the palette to feature a friendlier blend of purples with a desaturated jade green accent that provides depth and richness in the surrounding whitespace. </p>
-        <img class=" img-fluid" src="img/swatches.jpg" alt="color palette">
-        <br></br>
-        <br></br>
+
+        <img class="branding img-fluid" src="img/swatches.jpg" alt="color palette">
+
+
 
         <p>I wanted the logo to convey movement, but it also had to be legible from a distance. I included stylized lines coming from the top of the S so the appearance conveys swiftness, whether the user sees the fast S logo, or Swiftly in its long form. </p>
-        <img class=" img-fluid" src="/img/Swiftly-final-logo-purple.jpg" alt="Swiftly full logo">
+        <img class="branding img-fluid" src="/img/Swiftly-final-logo-purple.jpg" alt="Swiftly full logo">
 
         <button class="btn spacing btn-styled"><a href="/img/Swiftly-final-design.pdf"><span>View All Branding</span></a></button>
       </div>
 
-        <div class="container col-8">
+        <div class="container col-md-8">
           <h3>User testing results</h3>
           <p>Users did not have any trouble renting a bike.  There was some confusion over creating an account which led me to revise the conversion funnel.  The user is now guided to create an account after scanning to ride, touching to reserve, or clicking the CTA. The product is ready to ship and subject to further testing. </p>
         </div>
 
-        <div class="container col-8">
+        <div class="container col-md-8">
           <h3 class="iOS-tag-head">Final Visual Design Prototype</h3>
-            <h6 class="tag">iOS app</h6>
+          <h6 class="tag">iOS app design</h6>
+          <h6 class="tag">user interviews</h6>
+          <h6 class="tag">user personas</h6>
+          <h6 class="tag">wireframes</h6>
+          <h6 class="tag">branding</h6>
+          <h6 class="tag">user testing</h6>
             <p class="spacing">Seattle's discerning users needed a better bike-sharing app. I designed Swiftly with a clean interface, to make reserving and riding simple and intuitive. Map icons, colors, and conversion funnel have all been iterated on based on user feedback and testing. The product was created as part of my apprenticeship program and did not ship. </p>
 
               <button class="btn btn-styled prototype-button"><a href="https://invis.io/YCECGDRZT"><span>View Prototype</span></a></button>
@@ -202,7 +245,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="container col-8">
+              <div class="container col-md-8">
             <img src="img/Swiftly-final-design.jpg" class="img-fluid prototype" alt="Intro screen to app, feature screen, and map screen">
           </div>
 

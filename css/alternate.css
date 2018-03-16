@@ -77,7 +77,7 @@ a:hover {
     transition: background 0.5s ease-in-out; }
     #mainNav .navbar-nav .nav-item:hover {
       color: fade(white, 80%);
-      border-bottom: 2px solid darkgray;
+    
 
     }
     #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
@@ -93,7 +93,7 @@ a:hover {
       background: rgba(253,252,252,0.9); }
       #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        background-color:;
+        ;
       }
       #mainNav .nav-link.active {
         outline: none;
