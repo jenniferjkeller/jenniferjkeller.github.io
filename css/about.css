@@ -19,6 +19,17 @@ html {
   height: 100%;
   overflow: hidden;}
 
+#about {
+  margin-top: 100px;
+}
+
+.headshot{
+  object-fit: scale-down;
+  max-width: 80%;
+}
+.photo{
+  max-width: 78.5%;
+}
   /* button styles */
   .btn {
     font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -30,20 +41,7 @@ html {
     text-transform: uppercase;
     border-radius: 8px; }
 
-  /*.btn-default {
-    color: #F1F1F1;
-    border: 1px solid #F1F1F1;
-    border-radius: 4px;
-    background-color: #F1f1f1; }
-    .btn-default:focus, .btn-default:hover {
-      color: darkgray;
-      border: 1px solid #F1F1F1;
-      outline: none;
-      background-color: #F1F1F1; }
 
-  .btn-contact{
-    background-color: #3BCCC2;
-  }*/
   .btn-styled {
   	background-image: linear-gradient(to bottom, #67DBD3 0%, #3BCCC2 100%);
   	border-radius: 40px;

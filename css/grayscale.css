@@ -240,15 +240,12 @@ h6.tag {
   font-family: 'Roboto';
   font-size: 10px;
   letter-spacing: 1px;
-  border-radius: 2px;
-  border: 1px solid lightgray;
   text-align: center;
-  padding: 4px 4px 2px 4px;
   margin-left: 0px;
-  margin-bottom: 20px;
   background-color: white;
   display: inline;
 }
+
 /* header for light background */
 .header-lt-bkg{
   color: #212529;
