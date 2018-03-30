@@ -1,14 +1,14 @@
 body {
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  position: relative;
-  width: 100%;
-  height: 100%;
+  background-color: #FFFFFF;
   color: #2a311e;
-  background-color: #FFFFFF; }
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  height: 100%;
+  position: relative;
+  width: 100%; }
 
 html {
-  width: 100%;
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
 h1,
 h2,
@@ -16,12 +16,12 @@ h3,
 h4,
 h5,
 h6 {
+  color: #2a311e;
   font-family: 'Futura';
   font-weight: 300;
-  margin: 0 0 35px;
   letter-spacing: 1px;
-  text-transform: none;
-  color: #2a311e;}
+  margin: 0 0 35px;
+  text-transform: none;}
 
 p {
   font-size: 16px;
@@ -34,8 +34,8 @@ p {
       margin-bottom: 25px; } }
 
 a {
-  -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
  }
   a:focus, a:hover {
@@ -43,45 +43,45 @@ a {
    }
 
    #mainNav {
+     background-color: #fdfcfc;
      font-family: 'Roboto', serif;
      margin-bottom: 0;
-     text-transform: none;
-     background-color: #fdfcfc; }
+     text-transform: none; }
      #mainNav .navbar-toggler {
-       font-size: 14px;
-       padding: 20px;
+       border: none;
        color: #2a311e;
-       border: none;}
+       font-size: 14px;
+       padding: 20px;}
      #mainNav .navbar-brand {
        font-weight: 100; }
      #mainNav a {
        color: #2a311e; }
      #mainNav .navbar-nav .nav-item {
-       -webkit-transition: background 0.3s ease-in-out;
        -moz-transition: background 0.3s ease-in-out;
+       -webkit-transition: background 0.3s ease-in-out;
        transition: background 0.3s ease-in-out; }
        #mainNav .navbar-nav .nav-item:hover {
+         background-color: #fdfcfc;
          color: fade(white, 80%);
-         outline: none;
-         background-color: #fdfcfc; }
+         outline: none; }
        #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
-         outline: none;
-         background-color: transparent; }
+         background-color: transparent;
+         outline: none; }
      @media (min-width: 992px) {
        #mainNav {
-         -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
          -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-         transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-         letter-spacing: 1px;
+         -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+         background: rgba(253,252,252,0.9);
          border-bottom: none;
-         background: rgba(253,252,252,0.9); }
+         letter-spacing: 1px;
+         transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s; }
          #mainNav.navbar-shrink {
-           border-bottom: 1px solid rgba(255, 255, 255, 0.3);
            background-color:;
+           border-bottom: 1px solid rgba(255, 255, 255, 0.3);
          }
          #mainNav .nav-link.active {
-           outline: none;
-           background-color: rgba(255, 255, 255, 0.3); }
+           background-color: rgba(255, 255, 255, 0.3);
+           outline: none; }
            #mainNav .nav-link.active:hover {
              border: 1px, solid #155624; } }
 
@@ -93,24 +93,33 @@ a {
 
 
 .Swiftly-intro {
-  background-image: url("/img/swiftly-perspective-screens-mod.jpg");
+  background-image: url("/img/Swiftly-case-study-hero.jpg");
+  background-position: 0px 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 400px;
+
+}
+.Flourish-intro {
+  background-image: url("/img/Flourish-case-study-hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  margin-top: 60px;
 }
 
 .project-name {
-  max-width: 100%;
+  color: black;
+  display: inline-block;
   font-family: 'Futura';
-  text-transform: uppercase;
+  font-size: 3em;
   font-weight: normal;
   letter-spacing: 5px;
-  color: black;
-  font-size: 3em;
-  padding-top: 15px;
   margin-bottom: 20px;
-  display: inline-block;
+  max-width: 100%;
+  padding-top: 15px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 500px) {
@@ -120,28 +129,32 @@ a {
 }
 
 .userflow {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  margin-left: 15px;
+  max-height: 500px;
   object-fit: cover;
   object-position: 0 0;
   width: 100%;
-  max-height: 500px;
-  margin-bottom: 1rem;
-  margin-left: 15px;
-  border: 1px solid lightgray;
-  border-radius: 4px;
 }
 .spaced-button {
   margin-top: 20px;
 }
-
 .container {
   padding-top: 30px;
 }
-
 .highlight {
   background-color: rgba(155, 148, 232, .25);
+  margin-top: 15px;
   padding-bottom: 45px;
   padding-top: 15px;
+}
+.flourish-highlight{
+  background-color: rgba(91, 130, 97, .25);
   margin-top: 15px;
+  padding-bottom: 45px;
+  padding-top: 15px;
 }
 .segment {
   margin-top: 3rem;
@@ -152,15 +165,19 @@ a {
 .center-space {
   padding-right: 30px;
 }
-
+.diagram {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 500px;
+}
 .persona {
   border: 1px solid lightgray;
-  object-fit: scale-down;
   border-radius: 8px;
-  }
+  object-fit: scale-down;
+}
 .icon-inline {
   display: inline;
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 /* iOS tag on Prototype section */
 
@@ -169,17 +186,17 @@ a {
   margin-bottom: .5rem;
 }
 h6.tag {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  display: inline-flex;
   font-family: 'Roboto';
   font-size: 10px;
   letter-spacing: 1px;
-  text-align: center;
-  margin-left: 0px;
   margin-bottom: .5rem;
-  background-color: white;
-  display: inline-flex;
+  margin-left: 0px;
+  text-align: center;
   text-transform: lowercase;
-  border: 1px solid lightgray;
-  border-radius: 8px;
 }
 
 .spacing {
@@ -195,16 +212,33 @@ h6.tag {
 
 
 .wireframes {
+  margin-bottom: 1rem;
+  max-height: 300px;
   object-fit: scale-down;
   object-position: 0 0;
-  width: 100%;
-  max-height: 250px;
+  width: auto;
+  padding: 1rem;
+}
+.flourish-wireframes {
   margin-bottom: 1rem;
+  max-height: 500px;
+  object-fit: scale-down;
+  object-position: 0 0;
+  padding: 1rem 0rem;
+}
+@media (min-width: 992) {
+  .flourish-wireframes {
+    margin-bottom: 1rem;
+    max-height: 500px;
+    object-fit: contain;
+    object-position: 0 0;
+    padding: 1rem;
+  }
 }
 
 .branding {
-  padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 .prototype {
   margin-bottom: 1rem;
@@ -213,16 +247,16 @@ h6.tag {
 
 /* button styles */
 .btn {
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  border-radius: 8px;
   color: #3BCCC2;
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  margin-right: 1rem;
   text-transform: uppercase;
-  border-radius: 8px;
-  margin-right: 1rem;}
+  transition: all 0.3s ease-in-out;}
 
 
 
@@ -251,8 +285,8 @@ h6.tag {
 	border-radius: 40px;
   color: #3BCCC2;
 	display: flex;
-	justify-content: center;
 	height: 100%;
+	justify-content: center;
 	transition: background .5s ease;
 	width: 100%;
 }
