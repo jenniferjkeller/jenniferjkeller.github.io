@@ -108,6 +108,15 @@ a {
   height: 100vh;
   margin-top: 60px;
 }
+@media only screen and (max-width: 767px) {
+  .flourish-intro {
+    background-image: url("/img/Flourish-case-study-hero.jpg");
+    background-position: center;
+    background-size: contain;
+    object-fit: none;
+    height: auto;
+    }
+}
 
 .project-name {
   color: black;
@@ -152,7 +161,7 @@ a {
 }
 .flourish-highlight{
   background-color: rgba(91, 130, 97, .25);
-  margin-top: 15px;
+  margin-top: 2.5rem;
   padding-bottom: 45px;
   padding-top: 15px;
 }
@@ -233,7 +242,7 @@ h6.tag {
     object-fit: contain;
     object-position: 0 0;
     padding: 1rem;
-  }
+
 }
 
 .branding {
