@@ -106,37 +106,39 @@ a:hover {
 /* jumbotron */
 
 .masthead {
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background: url("/img/portfolio-bg.jpg");
+  background: url("/img/greige.jpg");
   background-color: white;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: bottom center;
   background-size: cover;
-  background-size: cover;
-  height: 100vh;
   width: 100%;
+  height: 100vh;
+  margin-top: 54px;
+
 }
 
 .title-text {
-  font-family: 'Roboto';
-  padding-top: 12rem;
-  color: #FFFFFF;
-  text-shadow: 0px 1px 2px rgba(54,163,156,.7);
+  font-family: "Cantoni-Pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 1rem;
+  color: #F9F9F6;
+  text-shadow: 0px 1px 2px rgba(14,56,23,.8);
   text-transform: none;
 }
 .intro-text {
-  font-family: 'Roboto';
-  color: #FFFFFF;
+  font-family: 'Raleway';
+  font-weight: 100;
+  color: #F9F9F6;
   max-width: 100%;
   text-align: left;
-  text-shadow: 0px 1px 2px rgba(54,163,156,.7);
+  text-transform: uppercase;
+  text-shadow: 0px 1px 2px rgba(14,56,23,.8);
 }
 
 @media screen and (max-width: 992px) {
   .title-text {
-    padding-top: 10rem;
+    padding-top: 6rem;
   }
 }
 @media (min-width: 375px max-width: 767px) {
@@ -144,22 +146,17 @@ a:hover {
     margin-bottom: 8px;
     max-height: 400px;
     max-width: 100%;
-    font-size: 2rem;
     text-align: left;
   }
 .intro-text {
-      color: #FFFFFF;
-      text-shadow: 0px 1px 2px rgba(54,163,156,.7);
-      font-size: 1.5rem;
-      text-transform: none;
+      text-transform: uppercase;
 }
 }
 @media (min-width: 320px) {
   .masthead {
     margin-bottom: 8px;
-    max-height: 400px;
     text-align: left;
-    text-shadow: 0px 1px 2px rgba(54,163,156,.7)}
+  }
 }
 
 
@@ -168,20 +165,25 @@ a:hover {
 .title-text{
     position: relative;
     text-align: left;
-    font-size: 4rem;
   }
 .intro-text {
-    font-size: 2rem;
     position: relative;
     text-align: left;}
 }
   @media (min-width: 1024px) {
     .title-text {
+      padding-top: 6rem;
+      text-align: left;
       font-size: 4rem;
-      text-align: left;}
+    }
+
     .masthead .intro-text {
-      font-size: 2rem;
-      text-align: left;}
+      text-align: left;
+      font-size: 1.5rem;
+      font-weight: 300;
+      color: #F9F9F6;
+      text-shadow: 0px 2px 2px rgba(14,56,23,.9);
+    }
 }
 .masthead .row {
   margin-top: 0px;
@@ -231,7 +233,7 @@ h6.tag {
   letter-spacing: 1px;
   margin-left: 0px;
   margin-right: .3rem;
-  padding: 4px;
+  padding: 4px 6px;
   text-align: center;
   text-transform: lowercase;
 }
@@ -285,11 +287,12 @@ h6.tag {
 	justify-content: center;
 	transition: background .5s ease;
 	width: 100%;
-  padding: 0px 6px;
+  padding: 0px 16px;
 }
 
 .btn-styled:hover span {
 	background: transparent;
+  color: white;
 }
 .form-link {
   color: #3BCCC2;
