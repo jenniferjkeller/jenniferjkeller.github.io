@@ -281,10 +281,10 @@ h6.tag {
 
 
 .btn-styled {
-	background-image: linear-gradient(to bottom, #67DBD3 0%, #3BCCC2 100%);
+	background-image: linear-gradient(to bottom, #456056 0%, #31443D 100%);
 	border-radius: 40px;
   box-sizing: border-box;
-	color: #3BCCC2;
+	color: #31443D;
 	font: .8rem 'Roboto', Arial, sans-serif; /*18*/
 	height: 50px;
 	padding: 2px;
@@ -304,7 +304,7 @@ h6.tag {
 	align-items: center;
 	background: #ffffff;
 	border-radius: 40px;
-  color: #3BCCC2;
+  color: #31443D;
 	display: flex;
 	height: 100%;
 	justify-content: center;
