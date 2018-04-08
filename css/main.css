@@ -42,7 +42,8 @@ p {
 @media (min-width: 768px) {
     p {
       line-height: 1.6;
-      margin: 0 0 35px; }
+      margin: 0 0 35px;
+    }
 }
 
 a {
