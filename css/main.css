@@ -125,7 +125,7 @@ a:hover {
   font-weight: 400;
   padding-top: 1rem;
   color: #6E1B61;
-  text-shadow: 0px 2px 2px rgba(95,23,84,.8);
+  text-shadow: 0px 1px 1px rgba(95,23,84,.8);
   text-transform: none;
 }
 .intro-text {
@@ -135,7 +135,7 @@ a:hover {
   max-width: 100%;
   text-align: left;
   text-transform: uppercase;
-  text-shadow: 0px 2px 2px rgba(95,23,84,.8);
+  text-shadow: 0px 1.5px 1.5px rgba(95,23,84,.8);
 }
 
 @media screen and (max-width: 992px) {
@@ -149,7 +149,7 @@ a:hover {
     max-height: 400px;
     max-width: 100%;
     text-align: left;
-    text-shadow: 0px 1px 2px rgba(95,23,84,.8);
+    text-shadow: 0px 1px 1.5px rgba(95,23,84,.8);
   }
 .intro-text {
       text-transform: uppercase;
@@ -182,7 +182,7 @@ a:hover {
 
     .masthead .intro-text {
       text-align: left;
-      font-size: 1.5rem;
+      font-size: 2rem;
       font-weight: 300;;
     }
 }
