@@ -7,8 +7,8 @@
 body {
   background-color: #FFFFFF;
   color: #54595E;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 100;
   height: 100%;
   margin:0;
   overflow-x: hidden;
@@ -29,8 +29,7 @@ h2
 h3
 h4
 h5 {
-  font-family: 'Raleway';
-  font-weight: 200;
+  font-family: 'Roboto';
   letter-spacing: 2px;
   margin: 0 0 35px;
   text-transform: none; }
@@ -108,10 +107,10 @@ a:hover {
 /* jumbotron */
 
 .masthead {
-  background: url("/img/yellow.jpg");
+  background: url("/img/greige.jpg");
   background-color: white;
   background-repeat: no-repeat;
-  background-position: 50% center;
+  background-position: bottom center;
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -120,22 +119,24 @@ a:hover {
 }
 
 .title-text {
- hero
-  font-family: "cantoni-pro", serif;
+main-page-img
+  font-family: "Cantoni-Pro", serif;
+master
+  font-style: normal;
   font-weight: 400;
   padding-top: 1rem;
-  color: #6E1B61;
-  text-shadow: 0px 1px 1px rgba(95,23,84,.8);
+  color: #F9F9F6;
+  text-shadow: 0px 1px 2px rgba(14,56,23,.8);
   text-transform: none;
 }
 .intro-text {
   font-family: 'Raleway';
   font-weight: 100;
-  color: #6E1B61;
+  color: #F9F9F6;
   max-width: 100%;
   text-align: left;
   text-transform: uppercase;
-  text-shadow: 0px 1.5px 1.5px rgba(95,23,84,.8);
+  text-shadow: 0px 1px 2px rgba(14,56,23,.8);
 }
 
 @media screen and (max-width: 992px) {
@@ -149,7 +150,6 @@ a:hover {
     max-height: 400px;
     max-width: 100%;
     text-align: left;
-    text-shadow: 0px 1px 1.5px rgba(95,23,84,.8);
   }
 .intro-text {
       text-transform: uppercase;
@@ -182,8 +182,10 @@ a:hover {
 
     .masthead .intro-text {
       text-align: left;
-      font-size: 2rem;
-      font-weight: 300;;
+      font-size: 1.5rem;
+      font-weight: 300;
+      color: #F9F9F6;
+      text-shadow: 0px 2px 2px rgba(14,56,23,.9);
     }
 }
 .masthead .row {
@@ -259,10 +261,10 @@ h6.tag {
   transition: all 0.3s ease-in-out; }
 
 .btn-styled {
-	background-image: linear-gradient(to bottom, #739C8D 0%, #739C8D 100%);
+	background-image: linear-gradient(to bottom, #456056 0%, #31443D 100%);
 	border-radius: 40px;
   box-sizing: border-box;
-	color: #739C8D;
+	color: #31443D;
 	font: .8rem 'Roboto', Arial, sans-serif; /*18*/
 	height: 50px;
 	letter-spacing: 1px;
@@ -282,7 +284,7 @@ h6.tag {
 	align-items: center;
 	background: #fff;
 	border-radius: 40px;
-  color: #739C8D;
+  color: #31443D;
 	display: flex;
 	height: 100%;
 	justify-content: center;
