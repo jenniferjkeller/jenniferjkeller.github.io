@@ -77,33 +77,35 @@
     <div class="Swiftly-intro img-fluid"></div>
 
 
-    <section class="highlight">
-      <div class="container col-md-8">
-        <h3>Summary</h3>
-        <p>Bicycle sharing services are growing in popularity and the services currently available in the U.S. are limited in their offerings. Enter Swiftly - a better bike-share. With a streamlined interface and a fleet of better bikes, Swiftly stands apart. </p>
+    <section>
+      <div class="highlight">
+        <div class="container col-md-8">
+        <h3 class="d-flex justify-content-center center-head">Summary</h3>
+        <p>Bicycle sharing services are limited in their offerings. Enter Swiftly - a better bike-share. With a streamlined interface and a fleet of better bikes, Swiftly stands apart. </p>
       </div>
+
       <div class="container col-md-8">
         <div class="row">
-          <div class="container card-deck sm-col-md-8">
-            <div class="card card-spacing">
-              <div class="card-block">
-                <h4 class="card-header card-title">Problem</h4>
+          <div class="container col-md-10">
+            <div class="d-inline-flex justify-content-between">
+              <div>
+                <h3>Problem</h3>
                 <p class="competitive-points">Seattle needed a bike sharing service that considered the terrain and rider safety.</p>
               </div>
-            </div>
-            <div class="card card-spacing">
-              <div class="card-block">
-                <h4 class="card-header card-title">Solution</h4>
+              <div class="col-md-3"></div>
+              <div class="">
+                <h3 class="">Solution</h3>
                 <p class="competitive-points">A modern app showcasing a premium bike fleet that gets users on the road fast.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
     <div class="img-fluid segment"></div>
-      <div class="container col-md-8">
+      <div class="container col-md-8 mt-5">
         <h3>User Research</h3>
         <p>I conducted interviews with members of the community asking what features they wanted in a bike-sharing service and how often they would use it. People reported they would use the bike while visiting or getting around the city. They liked that it was cheaper than public transportation or a rental car.</p>
         <p>With the old service, having to bring the bike back to a specified hub was a common complaint. People also reported that the bikes didn't have many gears.</p>
@@ -112,42 +114,45 @@
         <h3>Competitive analysis</h3>
         <p>I conducted a competitive analysis of two bike-share companies in Seattle and one company that does business nationwide. I researched the equipment used in bike sharing and examined the apps used to obtain the service. From this research, I gleaned several important insights. </p>
         <div class="container sm-col-md-8">
+         <div class="row justify-content-between align-items-baseline">
+           <img src="img/spin-logo.png" class="competitors">
+           <img src="img/limebike-logo.png" class="competitors">
+           <img src="img/sobi-logo.png" class="competitors">
+         </div>
+       </div>
+     </div>
+       <div class="highlight-2">
+        <div class="container col-md-8 d-flex justify-content-center align-items-center">
          <div class="row">
-          <div class="card-deck">
-           <div class="card card-spacing">
-            <div class="card-block">
-              <h4 class="card-header card-title">The Good</h4>
+           <div class="col box m-5">
+              <h3 class="justify-content-center">The Good</h3>
                 <ul class="competitive-points">
-                  <li>Spin and LimeBike both use bright bold colors with a minimalist design.</li>
-                  <li>LimeBike uses a left tab nav while Spin opted for bottom navigation.</li>
-                  <li>SoBi gave users the option to reserve a specific bike. </li>
+                  <li class="my-3 px-3">Spin and LimeBike both use bright bold colors with a minimalist design.</li>
+                  <li class="my-3 px-3">LimeBike uses a left tab nav while Spin opted for bottom navigation.</li>
+                <li class="my-3 px-3">SoBi gave users the option to reserve a specific bike. </li>
                 </ul>
               </div>
-            </div>
-
-            <div class="card card-spacing">
-              <div class="card-block">
-                <h4 class="card-header card-title">The Bad</h4>
-                  <ul class="competitive-points">
-                    <li>Spin and LimeBike's map discrepancies raised safety concerns with some riders. </li>
-                    <li>No service offered a helmet with the bike. </li>
-                    <li>All of the existing bike-share programs use 3-speed bikes. </li>
-                  </ul>
+              <div class="col box m-5">
+              <h3 class="justify-content-center">The Bad</h3>
+                <ul class="competitive-points">
+                  <li class="my-3 px-3">Spin and LimeBike's map discrepancies raised safety concerns with some riders. </li>
+                  <li class="my-3 px-3">No service offered a helmet with the bike. </li>
+                  <li class="my-3 px-3">All of the existing bike-share programs use 3-speed bikes. </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-      </div>
       <br></br>
     </div>
 
       <div class="container col-md-8">
         <div class="row col-md">
           <h3>User Persona</h3>
-            <p>After analyzing competitors and considering my initial research, I set out to define my ideal user, Rachel. </p>
-            <div class="d-flex">
-              <div class="d-none d-sm-block justify-content-center row col-md">
-                <img src="/img/persona-rachel.jpg" class="persona img-fluid">
+            <p>After analyzing competitors, I filtered my initial research into user personas.  Of the three, the persona belonging to my most ideal user is Rachel.</p>
+            <div class="d-flex justify-content-center mx-auto">
+              <div class="d-none d-sm-block justify-content-center row col-md persona">
+                <img src="/img/persona-rachel.jpg" class="persona img-fluid mx-auto">
               </div>
             </div>
           </div>
@@ -175,7 +180,7 @@
              <button class="btn btn-outline userflow-button"><a href="img/persona-rachel.jpg"><span>View User Persona </span></a></button>
         </div>
       </div>
-      <div class="container col-md-8">
+      <div class="container col-md-8 mt-5">
         <h3>User Flows</h3>
           <div class="row col">
             <p>I mapped out a user flow based on Rachel’s first time using the app, but the early stages were too complex. The user had to complete several steps before creating an account, all before they got to see how many bikes were nearby. Given that users may be at the bike, ready to scan and ride, this user flow was insufficient.  It was re-worked and streamlined for the final design.</p>
@@ -191,17 +196,24 @@
       </div>
 
 
-       <div class="container col-md-8">
+       <div class="container col-md-8 my-5">
          <h3>Wireframes</h3>
-         <p>The early wireframes were an experiment on nav placement, layout, and interaction.  I found that a bottom navigation bar tested better with users and implemented this feature.  </p>
-         <div class="row d-sm-flex">
-           <div class="d-sm-flex indent justify-content-center">
-             <img class="flex-nowrap wireframes " src="img/swiftly-lofi-wf.jpg" alt="low fidelity wireframes depicting early stages of bike sharing application">
-             <img class="flex-nowrap wireframes" src="img/swiftly-hifi-wf.jpg" alt="high fidelity wireframes depicting later stages of bike sharing application">
+         <p>The early wireframes were an experiment on nav placement, layout, and interaction.  I found that a bottom navigation bar tested better with users and implemented this feature.</p>
+       </div>
+        <div class="container">
+           <div class="row justify-content-between">
+             <img src="img/swiftly-lofi-wf.jpg" class="wf" alt="low fidelity wireframes depicting early stages of bike sharing application">
+
+             <img src="img/S-wf-2.jpg" class="wf" alt="low fidelity wireframes depicting early stages of bike sharing application">
+
+             <img src="img/swiftly-hifi-wf.jpg" class="wf" alt="high fidelity wireframes depicting later stages of bike sharing application">
+
+             <img src="img/S-wf-4.jpg" class="wf" alt="high fidelity wireframes depicting later stages of bike sharing application">
            </div>
          </div>
+       </div>
          <button class="btn btn-outline spaced-button"><a href="/img/swiftly-wireframes.pdf"><span>View Wireframes </span></a></button>
-        </div>
+      </div>
 
 
         <div class="container col-md-8">

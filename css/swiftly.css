@@ -59,6 +59,40 @@ h3 {
   height: 500px;
 
 }
+.highlight {
+  background-color: #4A4A4A;
+  margin-top: 0;
+  padding-bottom: 45px;
+  padding-top: 0;
+  color: white;
+  text-align: center;
+}
+.center-head {
+  padding-top: 34px;
+}
+.competitors {
+  width: 200px;
+  object-fit: contain;
+  padding-bottom: 3em;
+}
+.highlight-2 {
+  background-color: #4A4A4A;
+  padding-bottom: 45px;
+  padding-top: 0;
+  color: white;
+}
+
+.box {
+  height: 360px;
+  max-width: 360px;
+  background-color: #D8D8D8;
+  color: #4a4a4a;
+  padding-top: 1.5em;
+
+}
+.box h3 {
+  text-align: center;
+}
 .Flourish-intro {
   background-image: url("/img/Flourish-case-study-hero.jpg");
   background-position: center;
@@ -77,7 +111,7 @@ h3 {
     height: 350px;
     }
 }
-@media only screen and (min-width: 425px max-width: 767px) {
+@media only screen and (min-width: 425px, max-width: 767px) {
   .Flourish-intro {
     background-image: url("/img/Flourish-responsive-hero.jpg");
     background-position: center;
@@ -110,12 +144,7 @@ h3 {
 .container {
   padding-top: 30px;
 }
-.highlight {
-  color: #4A4A4A;
-  margin-top: 15px;
-  padding-bottom: 45px;
-  padding-top: 15px;
-}
+
 .flourish-highlight{
   background-color: #4A4A4A;
   margin-top: 2.5rem;
@@ -135,14 +164,17 @@ h3 {
   max-height: 500px;
 }
 .persona {
-  border: 1px solid lightgray;
+  border: 1px solid gray;
   border-radius: 8px;
-  object-fit: scale-down;
-  align-items: center;
+
 }
 .icon-inline {
   display: inline;
   margin-left: 1rem;
+}
+.wf {
+  max-width: 200px;
+  max-height: 450px;
 }
 /* iOS tag on Prototype section */
 
@@ -157,18 +189,9 @@ h3 {
 }
 .competitive-points {
   line-height: 1.5rem;
-  padding-left: 20px;
+  padding: 20px 3rem;
 }
 
-
-.wireframes {
-  margin-bottom: 1rem;
-  max-height: 300px;
-  object-fit: scale-down;
-  object-position: 0 0;
-  width: auto;
-  padding: 1rem;
-}
 .flourish-wireframes {
   margin-bottom: 1rem;
   max-height: 500px;
