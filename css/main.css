@@ -31,6 +31,7 @@ h4
 h5 {
   font-family: 'Montserrat';
   font-weight: 600;
+
   letter-spacing: 2px;
   margin: 0 0 35px;
   text-transform: none; }
@@ -43,8 +44,7 @@ p {
 @media (min-width: 768px) {
     p {
       line-height: 1.6;
-      margin: 0 0 35px;
-    }
+      margin: 0 0 35px; }
 }
 
 a {
@@ -133,6 +133,7 @@ a:hover {
 .intro-text {
   font-family: 'Montserrat';
   font-weight: 100;
+
   color: yellow;
   max-width: 100%;
   text-align: left;
@@ -185,8 +186,10 @@ a:hover {
 
     .masthead .intro-text {
       text-align: left;
-      font-size: 2rem;
-      font-weight: 300;;
+      font-size: 1.5rem;
+      font-weight: 300;
+      color: #F9F9F6;
+      text-shadow: 0px 2px 2px rgba(14,56,23,.9);
     }
 }
 .masthead .row {
@@ -272,8 +275,6 @@ border-color: #00A5A5;
     color: #fff;
     background-color: #00a5a5;
     border-color: #00a5a5;
-
-
 }
 
 .btn-outline:hover span {
