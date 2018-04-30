@@ -27,20 +27,19 @@ h3 {
   object-position: center;
 }
 .project-name {
-  font-family: "cantoni-pro", serif;
+  font-family: 'Cantoni-pro', serif;
   font-size: 50px;
   color: #4a4a4a;
   display: flex;
   font-weight: bold;
   position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
   @media (max-width: 500px) {
   .project-name {
-      font-size: xx-large;
       line-height: 1.6; }
   }
 .indent {
@@ -170,7 +169,7 @@ h3 {
 }
 .wf {
   max-width: 200px;
-  max-height: 450px;
+  max-height: 320px;
 }
 /* iOS tag on Prototype section */
 
