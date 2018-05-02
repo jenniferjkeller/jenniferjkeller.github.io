@@ -70,20 +70,27 @@ h3 {
 .center-head {
   padding-top: 34px;
 }
+.p-marg {
+  margin-bottom: 10px;
+}
 .compete-spacing {
   justify-content: space-evenly;
 }
-.competitors {
-  width: 200px;
-  object-fit: contain;
-  padding-bottom: 3em;
+.comp-logo .container{
+  padding-top: 10px;
 }
-@media screen only and (min-width: 720px and max-width: 1140px) {
+.competitors {
+  max-width: 200px;
+  object-fit: contain;
+  padding: 20px;
+}
+@media screen only and (min-width: 720px) and (max-width: 1140px) {
   .competitors {
     width: 120px;
+    justify-content: space-between;
   }
 }
-@media (max-width: 427px) {
+@media (max-width: 945px) {
   .competitors {
     justify-content: center;
   }
