@@ -28,15 +28,16 @@ h3 {
 }
 .project-name {
   font-family: 'Cantoni-pro', serif;
-  font-size: 50px;
+  font-size: 80px;
+  letter-spacing: 1.5px;
   color: #4a4a4a;
   display: flex;
-  font-weight: bold;
+  font-weight: normal;
   position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
   @media (max-width: 500px) {
   .project-name {
