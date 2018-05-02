@@ -73,25 +73,22 @@ h3 {
 .p-marg {
   margin-bottom: 10px;
 }
-.compete-spacing {
-  justify-content: space-evenly;
-}
-.comp-logo .container{
-  padding-top: 10px;
+.comp-logos {
+  justify-content: space-between;
 }
 .competitors {
   max-width: 200px;
   object-fit: contain;
-  padding: 20px;
+  padding: 20px 2rem 2rem 2rem;
 }
-@media screen only and (min-width: 720px) and (max-width: 1140px) {
+/* @media screen only and (min-width: 720px) and (max-width: 1140px) {
   .competitors {
-    width: 120px;
+    max-width: 120px;
     justify-content: space-between;
   }
-}
-@media (max-width: 945px) {
-  .competitors {
+}*/
+@media (max-width: 1140px) {
+  .comp-logos {
     justify-content: center;
   }
 }
