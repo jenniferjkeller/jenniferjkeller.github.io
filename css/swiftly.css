@@ -70,10 +70,23 @@ h3 {
 .center-head {
   padding-top: 34px;
 }
+.compete-spacing {
+  justify-content: space-evenly;
+}
 .competitors {
   width: 200px;
   object-fit: contain;
   padding-bottom: 3em;
+}
+@media screen only and (min-width: 720px and max-width: 1140px) {
+  .competitors {
+    width: 120px;
+  }
+}
+@media (max-width: 427px) {
+  .competitors {
+    justify-content: center;
+  }
 }
 .highlight-2 {
   background-color: #4A4A4A;
@@ -81,14 +94,37 @@ h3 {
   padding-top: 0;
   color: white;
 }
-
+ul {
+  list-style: none;
+}
 .box {
-  height: 360px;
-  max-width: 360px;
+  max-height: 600px;
+  width: 40%;
   background-color: #D8D8D8;
   color: #4a4a4a;
   padding-top: 1.5em;
 
+}
+@media (max-width: 425px) {
+  .box {
+  padding: 10px;
+}
+}
+@media (max-width: 959px) {
+  .box {
+  width: 100%;
+  flex-wrap: none;
+}
+  .compete-spacing {
+    justify-content: space-evenly;
+    width: 120px;
+  }
+}
+@media (min-width: 960) {
+  .box {
+    max-width: 40%;
+    flex-wrap: none;
+  }
 }
 .box h3 {
   text-align: center;
@@ -184,7 +220,7 @@ h3 {
 }
 .competitive-points {
   line-height: 1.5rem;
-  padding: 20px 3rem;
+  padding: 10px 2rem;
 }
 
 .flourish-wireframes {
