@@ -85,8 +85,9 @@
       </div>
 
       <div class="container col-md-8">
-        <div class="row">
-          <div class="container d-inline-flex justify-content-between">
+
+        <!-- d-md-inline-flex allows for 2 columns at larger widths and collapsing to one column at md width  -->
+          <div class="d-md-inline-flex">
             <div class="col-md">
                 <h3>Problem</h3>
                 <p class="competitive-points">Seattle needed a bike sharing service that considered the terrain and rider safety.</p>
@@ -197,16 +198,17 @@
        <div class="container col-md-8 my-5">
          <h3>Wireframes</h3>
          <p>The early wireframes were an experiment on nav placement, layout, and interaction.  I found that a bottom navigation bar tested better with users and implemented this feature.</p>
+         <p>Later versions played with UI styling for usability and conversion.</p>
        </div>
-        <div class="container">
-           <div class="row justify-content-between">
-             <img src="img/swiftly-lofi-wf.jpg" class="wf" alt="low fidelity wireframes depicting early stages of bike sharing application">
+        <div class="container col-md-8">
+           <div class="row wf-cont">
+             <img src="img/swiftly-lofi-wf.jpg" class="wf d-none d-lg-block" alt="low fidelity wireframes depicting early stages of bike sharing application">
 
              <img src="img/S-wf-2.jpg" class="wf" alt="low fidelity wireframes depicting early stages of bike sharing application">
 
              <img src="img/swiftly-hifi-wf.jpg" class="wf" alt="high fidelity wireframes depicting later stages of bike sharing application">
 
-             <img src="img/S-wf-4.jpg" class="wf" alt="high fidelity wireframes depicting later stages of bike sharing application">
+             <img src="img/S-wf-4.jpg" class="wf d-none d-md-block" alt="high fidelity wireframes depicting later stages of bike sharing application">
            </div>
            <button class="btn btn-outline spaced-button mb-3"><a href="/img/swiftly-wireframes.pdf"><span>View Wireframes </span></a></button>
          </div>
