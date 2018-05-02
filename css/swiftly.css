@@ -71,6 +71,7 @@ h3 {
 .center-head {
   padding-top: 34px;
 }
+
 .p-marg {
   margin-bottom: 10px;
 }
@@ -178,9 +179,6 @@ ul {
 .spaced-button {
   margin-top: 20px;
 }
-.container {
-  padding-top: 30px;
-}
 
 .flourish-highlight{
   background-color: #4A4A4A;
@@ -203,15 +201,14 @@ ul {
 .persona {
   border: 1px solid gray;
   border-radius: 8px;
-
 }
-.icon-inline {
-  display: inline;
-  margin-left: 1rem;
+.wf-cont {
+  justify-content: space-evenly;
 }
 .wf {
   max-width: 200px;
   max-height: 320px;
+
 }
 /* iOS tag on Prototype section */
 
