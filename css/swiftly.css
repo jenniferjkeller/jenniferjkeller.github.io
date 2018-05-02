@@ -44,6 +44,7 @@ h3 {
   }
 .indent {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .spacing {
@@ -79,14 +80,9 @@ h3 {
 .competitors {
   max-width: 200px;
   object-fit: contain;
-  padding: 20px 2rem 2rem 2rem;
+  margin: 20px 1rem 3rem 1rem;
 }
-/* @media screen only and (min-width: 720px) and (max-width: 1140px) {
-  .competitors {
-    max-width: 120px;
-    justify-content: space-between;
-  }
-}*/
+
 @media (max-width: 1140px) {
   .comp-logos {
     justify-content: center;
@@ -132,6 +128,12 @@ ul {
 }
 .box h3 {
   text-align: center;
+}
+.persona-head {
+  color: #00A5A5;
+}
+.persona-points {
+  list-style: square
 }
 .Flourish-intro {
   background-image: url("/img/Flourish-case-study-hero.jpg");
