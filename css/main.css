@@ -29,8 +29,9 @@ h2
 h3
 h4
 h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   font-weight: 600;
+
   letter-spacing: 2px;
   margin: 0 0 35px;
   text-transform: none; }
@@ -138,7 +139,7 @@ navbar-light {
   text-shadow: 0;
   text-transform: none;
 }
-mb-3 {
+.intro-text {
   font-family: 'Montserrat';
   font-weight: 100;
 
