@@ -140,7 +140,7 @@ navbar-light {
   text-transform: none;
 }
 .intro-text {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   color: yellow;
   max-width: 100%;
