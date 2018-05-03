@@ -138,10 +138,9 @@ navbar-light {
   text-shadow: 0;
   text-transform: none;
 }
-mb-3 {
+.intro-text {
   font-family: 'Montserrat';
   font-weight: 100;
-
   color: yellow;
   max-width: 100%;
   text-align: left;
