@@ -1,0 +1,258 @@
+
+
+h2,
+h3 {
+  color: #00A5A5;
+}
+
+.img-fluid {
+  max-width: 100%;
+  object-fit: cover;
+}
+.page-head {
+  margin-top: 100px;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 2em;
+}
+
+.symbol {
+  display: flex;
+  z-index: -1;
+  max-width: 100%;
+  height: 100px;
+  justify-content: center;
+  object-fit: contain;
+  object-position: center;
+}
+.project-name {
+  font-family: 'Cantoni-pro', serif;
+  font-size: 80px;
+  letter-spacing: 1.5px;
+  color: #4a4a4a;
+  display: flex;
+  font-weight: normal;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  @media (max-width: 500px) {
+  .project-name {
+      line-height: 1.6; }
+  }
+.indent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.spacing {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.Swiftly-intro {
+  background-image: url("/img/Swiftly-case-study-hero.jpg");
+  background-position: 0px 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+
+}
+.highlight {
+  background-color: #4A4A4A;
+  margin-top: 0;
+  padding-bottom: 45px;
+  padding-top: 0;
+  color: white;
+  text-align: center;
+}
+.center-head {
+  padding-top: 34px;
+}
+
+.p-marg {
+  margin-bottom: 10px;
+}
+.comp-logos {
+  justify-content: space-between;
+}
+.competitors {
+  max-width: 200px;
+  object-fit: contain;
+  margin: 20px 1rem 3rem 1rem;
+}
+
+@media (max-width: 1140px) {
+  .comp-logos {
+    justify-content: center;
+  }
+}
+.highlight-2 {
+  background-color: #4A4A4A;
+  padding-bottom: 45px;
+  padding-top: 0;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+.box {
+  max-height: 600px;
+  width: 40%;
+  background-color: #D8D8D8;
+  color: #4a4a4a;
+  padding-top: 1.5em;
+
+}
+@media (max-width: 425px) {
+  .box {
+  padding: 10px;
+}
+}
+@media (max-width: 959px) {
+  .box {
+  width: 100%;
+  flex-wrap: none;
+}
+  .compete-spacing {
+    justify-content: space-evenly;
+    width: 120px;
+  }
+}
+@media (min-width: 960) {
+  .box {
+    max-width: 40%;
+    flex-wrap: none;
+  }
+}
+.box h3 {
+  text-align: center;
+}
+.persona-head {
+  color: #00A5A5;
+}
+.persona-points {
+  list-style: square
+}
+.Flourish-intro {
+  background-image: url("/img/Flourish-case-study-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin-top: 60px;
+}
+@media only screen and (max-width: 424px) {
+  .Flourish-intro {
+    background-image: url("/img/Flourish-responsive-hero.jpg");
+    background-position: 0px 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 15px;
+    height: 350px;
+    }
+}
+@media only screen and (min-width: 425px, max-width: 767px) {
+  .Flourish-intro {
+    background-image: url("/img/Flourish-responsive-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    height: 350px;
+    }
+}
+
+.userflow {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  margin-left: 15px;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: 0 0;
+  width: 100%;
+}
+
+.spaced-button {
+  margin-top: 20px;
+}
+
+.flourish-highlight{
+  background-color: #4A4A4A;
+  margin-top: 2.5rem;
+  padding-bottom: 45px;
+  padding-top: 15px;
+}
+
+.segment {
+  margin-top: 3rem;
+}
+
+.center-space {
+  padding-right: 30px;
+}
+
+.diagram {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 500px;
+}
+
+.persona {
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.wf-cont {
+  justify-content: space-evenly;
+}
+
+.wf {
+  max-width: 200px;
+  max-height: 320px;
+}
+
+/* iOS tag on Prototype section */
+
+
+.iOS-tag-head {
+  margin-bottom: .5rem;
+}
+
+.card-spacing {
+  margin: 2rem 0;
+}
+.competitive-points {
+  line-height: 1.5rem;
+  padding: 10px 2rem;
+}
+
+.flourish-wireframes {
+  max-height: 500px;
+  object-fit: scale-down;
+  object-position: 0 0;
+}
+@media (min-width: 992) {
+  .flourish-wireframes {
+    max-height: 500px;
+    object-fit: contain;
+    object-position: 0 0;
+
+}
+
+.branding {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.prototype {
+  margin-bottom: 1rem;
+  padding-right: 0px;
+}
+
+.prototype-button {
+  margin-bottom: 1rem;
+  }

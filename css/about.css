@@ -1,82 +1,56 @@
 
-body {
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  /*position: relative;*/
-  width: 100%;
-  height: 100%;
-  color: #54595E;
-  background-color: #FFFFFF;
-  margin:0;
-  padding:0;
-  perspective: 1px;
-  transform-style: preserve-3d;
-  overflow-y: scroll;
-  overflow-x: hidden;}
-
-html {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;}
 
 #about {
   margin-top: 100px;
 }
+h2,
+h3 {
+  color: #00A5A5;
+}
 
+.img-fluid {
+  max-width: 100%;
+  object-fit: cover;
+}
+.page-head {
+  margin-top: 100px;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 2em;
+}
+.symbol {
+  display: flex;
+  z-index: -1;
+  max-width: 100%;
+  height: 100px;
+  justify-content: center;
+  object-fit: contain;
+  object-position: center;
+}
+.project-name {
+  font-family: 'Cantoni-pro', serif;
+  font-size: 80px;
+  letter-spacing: 1.5px;
+  color: #4a4a4a;
+  display: flex;
+  font-weight: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  @media (max-width: 500px) {
+  .project-name {
+      line-height: 1.6; }
+  }
 .headshot{
   object-fit: scale-down;
   max-width: 80%;
 }
-.photo{
-  max-width: 78.5%;
-}
+
   /* button styles */
-  .btn {
-    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    text-transform: uppercase;
-    border-radius: 8px; }
-
-
-  .btn-styled {
-  	background-image: linear-gradient(to bottom, #67DBD3 0%, #3BCCC2 100%);
-  	border-radius: 40px;
-    box-sizing: border-box;
-  	color: #3BCCC2;
-  	font: .8rem 'Roboto', Arial, sans-serif; /*18*/
-  	height: 50px;
-  	letter-spacing: 1px;
-  	margin: 0 auto;
-  	padding: 2px;
-  	position: relative;
-    text-decoration: none;
-  	text-transform: uppercase;
-  	width: 150px;
-  	z-index: 2;
-  }
-
-  .btn-styled:hover {
-  	color: #fff;
-  }
-
-  .btn-styled span {
-  	align-items: center;
-  	background: #fff;
-  	border-radius: 40px;
-  	display: flex;
-  	justify-content: center;
-  	height: 100%;
-  	transition: background .5s ease;
-  	width: 100%;
-  }
-
-  .btn-styled:hover span {
-  	background: transparent;
-  }
 
   /* Contact buttons */
   ul.banner-social-buttons {
