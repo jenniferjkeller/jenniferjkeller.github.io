@@ -196,6 +196,10 @@ ul {
   padding-right: 30px;
 }
 
+.ia-p {
+  margin-top: 35px;
+}
+
 .diagram {
   object-fit: contain;
   max-width: 100%;
@@ -205,6 +209,7 @@ ul {
 .persona {
   border: 1px solid gray;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 .wf-cont {
@@ -215,9 +220,7 @@ ul {
   max-width: 200px;
   max-height: 320px;
 }
-.ia-p {
-  margin-top: 35px;
-}
+
 
 /* iOS tag on Prototype section */
 
